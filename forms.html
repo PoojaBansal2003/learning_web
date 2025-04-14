@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <!-- <form></form> to create the form  
+    <input> to take the input from text, calender, float, toggle
+    <label></label>  for the field the name  -->
+
+    <h1>Forms in HTML</h1>
+        <!-- <label for="email"> Email ID:</label>
+     <input type="text" id="email" placeholder="Enter your Email">
+    </br>
+
+<label for="password"> Password:</label>
+     <input type="text" id="password" placeholder="Enter your password">
+     
+</br>
+<input type="submit" value="submit">
+    </form> -->
+    <form>
+<label for="datetime">Choose Date:</label>
+<input type="date" id="datetime">
+
+    </br>
+<label for="selector1">Choose your Dish:</label>
+<select name="dishes" id="selector1">
+    <option value="maggie">Maggi</option>
+    <option value="pizza">Pizza</option>
+    <option value="colddrink">Cold Drink</option>
+</select>
+
+<br>
+<button>Click me</button>
+
+<br>
+<label for="para">Write your Thoughts:</label>
+<textarea name="paragraph" id="para" cols="80" rows="10" placeholder="Enter your thoughts"></textarea>
+
+
+<fieldset>
+    <legend>Choose the Movie:</legend>
+    <label for="movie">Choose your movie </label>
+    <select name="choose" id="movie" multiple>
+        <option value="pk">PK</option>
+        <option value="rana">rana</option>
+        <option value="jaat">jaat</option>
+    </select>
+    <button>Click me</button>
+
+    <label>Select gender:</label><br>
+    <input type="radio" name="gender" value="male"> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br>
+    <input type="radio" name="gender" value="other"> Other
+</fieldset>
+
+    </form>
+
+</body>
+</html>
